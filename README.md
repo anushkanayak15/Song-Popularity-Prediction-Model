@@ -1,6 +1,6 @@
 # Song Popularity Prediction Model
 
-## Our Data Set
+## Data Set
 Our dataset contains Spotify tracks of over 125 genres. Each track has identification features including track ID, track name, artist who performed the track, and audio features such as danceability, energy, loudness, and valence, for a total of 21 features. There are 114,000 samples in the data, and it is tabular and was cleaned ahead of time. 
 
 The feature we focused on for our data analysis is popularity, a metric ranging from 0 to 100, with 100 being the most popular. It was calculated using an algorithm based on the total number of plays the track has had and how recent those plays are. As a result, more recent songs that are played more now have higher popularity than songs played a lot in the past, which is an implication that made predicting popularity from audio features in the dataset more difficult. 
